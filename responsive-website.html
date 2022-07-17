@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            /* border: 1px solid gainsboro; */
+        }
+
+        h1 {
+            font-size: 10vw;
+        }
+
+        .islam img {
+            width: 100%;
+        }
+
+        .conteiner {
+            display: flex;
+        }
+
+        .conteiner .pic2 {
+            width: 50%;
+        }
+
+        .pic2 img {
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px) {
+            .conteiner {
+                flex-direction: column;
+            }
+
+            .conteiner .pic2 {
+                width: 100%;
+            }
+    </style>
+</head>
+
+<body>
+    <h1>This responsive website</h1>
+    <section class="islam">
+        <h2>Islamic gift box</h2>
+        <img src="islamic pic/pic.jpg" alt="">
+    </section>
+    <section>
+        <div class="conteiner">
+            <div class="pic2">
+                <img src="islamic pic/1.jpg" alt="">
+            </div>
+            <div class="pic2">
+                <img src="islamic pic/6.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
